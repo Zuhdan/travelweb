@@ -2,7 +2,7 @@
 	<window apply="org.zkoss.bind.BindComposer"
 		viewModel="@id('vm')@init('com.bram.nemo.MyViewModel')"
 		validationMessages="@id('vmsgs')">
-		<hlayout>count: <label value="@load(vm.count)" /></hlayout>
+		<hlayout>countMe: <label value="@load(vm.count)" /></hlayout>
 		<button label="add" onClick="@command('cmd')"/>
 	</window>
 </zk>
