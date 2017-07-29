@@ -4,5 +4,6 @@
 		validationMessages="@id('vmsgs')">
 		<hlayout>countMe: <label value="@load(vm.count)" /></hlayout>
 		<button label="add" onClick="@command('cmd')"/>
+        thanks for that.
 	</window>
 </zk>
